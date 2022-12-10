@@ -1,12 +1,8 @@
 /* universal-style*/
-
-* {
-    box-sizing: border-box;
+html {
     margin: 0;
     padding: 0;
-}
-
-html {
+    width: 100%;
     text-rendering: optimizeLegibility;
     background-color: black;
 }
@@ -32,9 +28,7 @@ header {
     z-index: 1;
     background-color: black;
 }
-
 /* structure style*/
-
 div.logo {
     display: flex;
     align-items: center;
