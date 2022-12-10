@@ -60,7 +60,7 @@ main {
 section.banner {
     position: relative;
     top: 70px;
-    background-image: url("/Users/002/Build-cafe-website/resources/images/img-mission-background.jpg");
+    background-image: url("../images/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -164,7 +164,7 @@ section.location {
     align-items: center;
     width: 1200px;
     height: 500px;
-    background-image: url("/Users/002/Build-cafe-website/resources/images/img-locations-background.jpg");
+    background-image: url("../images/img-locations-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -174,8 +174,6 @@ section.location {
 
 .locations-container {
     display: inline-flex;
-    flex-flow: row;
-    justify-content: space-around;
 }
 
 .location-info {
